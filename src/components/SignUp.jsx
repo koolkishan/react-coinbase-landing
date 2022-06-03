@@ -41,8 +41,8 @@ const Section = styled.section`
         font-size: 1.5rem;
       }
     }
-  }
-  .image {
-    display: none;
+    .image {
+      display: none;
+    }
   }
 `;
