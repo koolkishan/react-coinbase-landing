@@ -6,12 +6,14 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Roadmap from "./components/Roadmap";
+import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
 import SignUp from "./components/SignUp";
 
 export default function App() {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <Home />
       <DailyPrices />

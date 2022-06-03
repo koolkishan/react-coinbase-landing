@@ -26,27 +26,27 @@ export default function Services() {
     },
   ];
   return (
-    <Section>
-      <div className="title-container">
-        <div className="title">
+    <Section className="flex column j-center a-center gap">
+      <div className="title-container flex column gap-1">
+        <div className="title text-center ">
           <h2>Start your trading with us</h2>
         </div>
-        <div className="subtitle">
+        <div className="subtitle text-center subdue">
           <h3>
             Market Watchmen has a variety of features that make it the best
             place to start trading
           </h3>
         </div>
       </div>
-      <div className="services">
+      <div className="services flex j-center a-center gap">
         {servicesData.map(({ image, title, descrption }) => {
           return (
-            <div className="service" key={title}>
+            <div className="service text-center flex column gap-1" key={title}>
               <div className="image">
                 <img src={image} alt="servive" />
               </div>
               <h3 className="title">{title}</h3>
-              <h5 className="description">{descrption}</h5>
+              <p className="description subdue">{descrption}</p>
             </div>
           );
         })}
@@ -54,4 +54,24 @@ export default function Services() {
     </Section>
   );
 }
-const Section = styled.section``;
+const Section = styled.section`
+  .services {
+    padding: 0 5rem;
+    gap: 10rem;
+    .service {
+      .title {
+        font-size: 1.5rem;
+      }
+      .description {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .services {
+      padding: 2rem;
+      gap: 3rem;
+    }
+  }
+`;
