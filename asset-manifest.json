@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6e442237.css",
-    "main.js": "./static/js/main.f4e87256.js",
+    "main.js": "./static/js/main.99b7108b.js",
     "static/media/about.png": "./static/media/about.6713d5aa6adaddde4f7a.png",
     "static/media/home.png": "./static/media/home.a9136be591eabf538074.png",
     "static/media/spacemen.png": "./static/media/spacemen.2b581b08cad1126d0e93.png",
@@ -10,10 +10,10 @@
     "static/media/cards.png": "./static/media/cards.c40e6d333024dffc029c.png",
     "index.html": "./index.html",
     "main.6e442237.css.map": "./static/css/main.6e442237.css.map",
-    "main.f4e87256.js.map": "./static/js/main.f4e87256.js.map"
+    "main.99b7108b.js.map": "./static/js/main.99b7108b.js.map"
   },
   "entrypoints": [
     "static/css/main.6e442237.css",
-    "static/js/main.f4e87256.js"
+    "static/js/main.99b7108b.js"
   ]
 }
